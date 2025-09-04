@@ -45,6 +45,7 @@ server.delete('/videos/:id',async (request, reply)=>{
 // --- A única parte que foi adicionada ou modificada ---
 
 const startServer = async () => {
+    host
     try {
         await server.listen({
             port: process.env.PORT ?? 3333,
