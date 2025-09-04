@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://nodedozero-d4xz.onrender.com/videos
 Content-type: application/json
 Accept-Language: pt-Br
 
@@ -10,11 +10,11 @@ Accept-Language: pt-Br
 
 ###
 
-GET http://localhost:3333/videos
+GET https://nodedozero-d4xz.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/
+PUT https://nodedozero-d4xz.onrender.com/videos/
 Content-type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/81c7a5d9-3a2d-431b-8c6b-139cf42b836a
+DELETE https://nodedozero-d4xz.onrender.com/videos/
